@@ -6,3 +6,4 @@
 - [GNU/Linux, VirtualBox и Ubuntu](labs/gnu-linux-and-virtualbox/README.md)
 - [Администрирование и процессы](labs/linux-administration-and-processes/README.md)
 - [Пользователи, группы и права доступа](labs/user-permissions-lab/README.md)
+- [Операции с файлами и каталогами](labs/file-work-lab/README.md)
