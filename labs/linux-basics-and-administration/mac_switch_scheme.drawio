@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" modified="2026-09-28T10:22:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram id="page1" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title1" value="1. Схема MAC-адреса" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="30" width="720" height="50" as="geometry"/></mxCell>
+        <mxCell id="note1" value="MAC-адрес = 48 бит = 6 байт" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="240" y="95" width="320" height="45" as="geometry"/></mxCell>
+        <mxCell id="mac" value="00 : 1A : 2B : 3C : 4D : 5E" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;fillColor=#eaf2f8;strokeColor=#5b9bd5;" vertex="1" parent="1"><mxGeometry x="150" y="155" width="520" height="55" as="geometry"/></mxCell>
+        <mxCell id="oui" value="00 : 1A : 2B&#xa;OUI / производитель" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="170" y="240" width="230" height="75" as="geometry"/></mxCell>
+        <mxCell id="dev" value="3C : 4D : 5E&#xa;Идентификатор устройства" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="430" y="240" width="250" height="75" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="mac" target="oui"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="mac" target="dev"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="title2" value="2. Схема соединения компьютеров с коммутаторами" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="40" y="350" width="1100" height="50" as="geometry"/></mxCell>
+        <mxCell id="pc1" value="ПК 1" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="90" y="450" width="80" height="70" as="geometry"/></mxCell>
+        <mxCell id="pc2" value="ПК 2" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="90" y="590" width="80" height="70" as="geometry"/></mxCell>
+        <mxCell id="sw1" value="Коммутатор 1" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="300" y="500" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="sw2" value="Коммутатор 2" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="620" y="500" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="pc3" value="ПК 3" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="880" y="450" width="80" height="70" as="geometry"/></mxCell>
+        <mxCell id="pc4" value="ПК 4" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;verticalLabelPosition=bottom;verticalAlign=top;fontSize=16;" vertex="1" parent="1"><mxGeometry x="880" y="590" width="80" height="70" as="geometry"/></mxCell>
+        <mxCell id="l1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="pc1" target="sw1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="pc2" target="sw1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="sw1" target="sw2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="sw2" target="pc3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="l5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" edge="1" parent="1" source="sw2" target="pc4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="title3" value="3. Возможная ошибка и исправление" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="40" y="730" width="1100" height="50" as="geometry"/></mxCell>
+        <mxCell id="err" value="Ошибка: ПК 3 не видит сеть / нет связи" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="60" y="810" width="350" height="80" as="geometry"/></mxCell>
+        <mxCell id="fix" value="Ответ: такая ошибка может возникнуть из-за повреждённого или неподключённого кабеля, неправильного IP-адреса или маски, неисправного порта коммутатора, неверного VLAN или сетевой петли.&#xa;&#xa;Исправление: проверить кабель, IP и маску, попробовать другой порт, проверить VLAN и работу STP." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;spacingLeft=12;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="450" y="800" width="620" height="150" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
