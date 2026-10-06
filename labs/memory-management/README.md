@@ -4,17 +4,13 @@
 
 Просмотр карты адресного пространства памяти:
 
-```bash
-cat /proc/iomem
-```
+![Вывод /proc/iomem](screenshots/01-iomem.png)
 
 ## `/proc/meminfo`
 
 Просмотр сведений об использовании памяти:
 
-```bash
-cat /proc/meminfo
-```
+![Вывод /proc/meminfo](screenshots/02-meminfo.png)
 
 ## Процесс `bash`
 
@@ -25,9 +21,7 @@ pgrep bash
 
 Карта памяти процесса:
 
-```bash
-cat /proc/3249/maps
-```
+![Карта памяти процесса bash](screenshots/03-bash-maps.png)
 
 Попытка чтения памяти процесса:
 
@@ -38,9 +32,13 @@ cat: /proc/3249/mem: Input/output error
 
 ## Процесс `gnome-terminal-server`
 
+Получен PID процесса:
+
+![PID процесса gnome-terminal-server](screenshots/04-gnome-terminal-pid.png)
+
 Карта памяти процесса `/proc/3242/maps`:
 
-![Карта памяти процесса gnome-terminal-server](screenshots/01-gnome-terminal-maps.png)
+![Карта памяти процесса gnome-terminal-server](screenshots/05-gnome-terminal-maps.png)
 
 Попытка чтения памяти процесса:
 
@@ -48,3 +46,5 @@ cat: /proc/3249/mem: Input/output error
 cat /proc/3242/mem
 cat: /proc/3242/mem: Input/output error
 ```
+
+![Ошибка чтения /proc/3242/mem](screenshots/06-gnome-terminal-mem-error.png)
