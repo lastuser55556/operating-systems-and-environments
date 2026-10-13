@@ -8,3 +8,4 @@
 - [Пользователи, группы и права доступа](labs/user-permissions-lab/README.md)
 - [Операции с файлами и каталогами](labs/file-work-lab/README.md)
 - [Процессы в Linux](labs/processes-lab/README.md)
+- [Bash Условия Циклы Функции](labs/bash-conditions-loops-functions/README.md)
