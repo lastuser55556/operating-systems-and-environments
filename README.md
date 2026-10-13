@@ -9,3 +9,4 @@
 - [Операции с файлами и каталогами](labs/file-work-lab/README.md)
 - [Процессы в Linux](labs/processes-lab/README.md)
 - [Bash Условия Циклы Функции](labs/bash-conditions-loops-functions/README.md)
+- [Скрипты Bash Linux](labs/linux-script-homework/README.md)
