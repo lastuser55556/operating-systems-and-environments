@@ -11,3 +11,4 @@
 - [Bash Условия Циклы Функции](labs/bash-conditions-loops-functions/README.md)
 - [Скрипты Bash Linux](labs/linux-script-homework/README.md)
 - [Bash: логирование и диагностика (16 примеров, результаты запуска)](labs/bash-logging-diagnostics/README.md)
+- [Bash: обработка ошибок (12 задач, результаты запуска)](labs/bash-error-handling/README.md)
