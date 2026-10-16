@@ -1,0 +1,5 @@
+$ bash scripts/11_arithmetic.sh
+10
+20
+$ echo $?
+0

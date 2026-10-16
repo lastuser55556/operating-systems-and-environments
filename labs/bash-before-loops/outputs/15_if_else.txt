@@ -1,0 +1,4 @@
+$ bash scripts/15_if_else.sh
+The user anotherUser doesn't exist
+$ echo $?
+0

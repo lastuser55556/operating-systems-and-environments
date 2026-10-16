@@ -1,0 +1,4 @@
+$ bash scripts/07_escaped_dollar.sh
+I have $1 in my pocket
+$ echo $?
+0

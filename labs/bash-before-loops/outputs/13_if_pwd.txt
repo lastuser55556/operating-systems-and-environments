@@ -1,0 +1,5 @@
+$ bash scripts/13_if_pwd.sh
+/workspace/scratch/aed2765ce115/bash-before-loops
+It works
+$ echo $?
+0

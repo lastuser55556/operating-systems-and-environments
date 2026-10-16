@@ -1,0 +1,6 @@
+$ bash scripts/16_elif.sh
+oai
+vscode
+The user doesn't exist but /home is present
+$ echo $?
+0

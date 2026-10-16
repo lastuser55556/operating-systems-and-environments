@@ -1,0 +1,4 @@
+$ bash scripts/08_variables.sh
+Adam is a good boy, he is in grade 5
+$ echo $?
+0

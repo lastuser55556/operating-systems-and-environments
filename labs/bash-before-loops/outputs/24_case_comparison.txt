@@ -1,0 +1,4 @@
+$ bash scripts/24_case_comparison.sh
+Ali is less than ali
+$ echo $?
+0

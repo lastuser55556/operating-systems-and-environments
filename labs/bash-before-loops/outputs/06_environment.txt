@@ -1,0 +1,4 @@
+$ bash scripts/06_environment.sh
+Home for the current user is: /root
+$ echo $?
+0

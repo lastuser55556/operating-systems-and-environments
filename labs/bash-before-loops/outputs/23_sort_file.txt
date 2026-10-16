@@ -1,0 +1,9 @@
+$ bash scripts/23_sort_file.sh
+cat myfile:
+Ali
+ali
+sort myfile:
+Ali
+ali
+$ echo $?
+0

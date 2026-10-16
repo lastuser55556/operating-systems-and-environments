@@ -1,0 +1,5 @@
+$ bash scripts/21_unquoted_comparison.sh
+text is less than another text
+/workspace/scratch/aed2765ce115/bash-before-loops/scripts/21_unquoted_comparison.sh: line 4: [: too many arguments
+$ echo $?
+0

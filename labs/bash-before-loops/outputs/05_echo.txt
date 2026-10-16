@@ -1,0 +1,7 @@
+$ bash scripts/05_echo.sh
+The current directory is:
+/workspace/scratch/aed2765ce115/bash-before-loops
+The user logged in is:
+root
+$ echo $?
+0
