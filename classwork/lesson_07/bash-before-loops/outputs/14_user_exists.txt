@@ -1,0 +1,5 @@
+$ bash scripts/14_user_exists.sh
+root:x:0:0:root:/root:/bin/bash
+The user root Exists
+$ echo $?
+0

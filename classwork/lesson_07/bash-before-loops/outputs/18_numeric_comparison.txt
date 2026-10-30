@@ -1,0 +1,4 @@
+$ bash scripts/18_numeric_comparison.sh
+The test value 6 is greater than 5
+$ echo $?
+0

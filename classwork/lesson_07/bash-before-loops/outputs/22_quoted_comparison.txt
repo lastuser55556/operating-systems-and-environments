@@ -1,0 +1,4 @@
+$ bash scripts/22_quoted_comparison.sh
+text is greater than another text
+$ echo $?
+0
