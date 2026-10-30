@@ -1,0 +1,4 @@
+$ bash scripts/20_string_equality.sh
+The user root is the current logged in user
+$ echo $?
+0

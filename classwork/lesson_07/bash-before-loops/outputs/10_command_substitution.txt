@@ -1,0 +1,4 @@
+$ bash scripts/10_command_substitution.sh
+/workspace/scratch/aed2765ce115/bash-before-loops
+$ echo $?
+0

@@ -1,0 +1,5 @@
+$ bash scripts/02_first_script.sh
+/workspace/scratch/aed2765ce115/bash-before-loops
+root
+$ echo $?
+0

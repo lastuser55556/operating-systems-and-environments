@@ -1,0 +1,5 @@
+$ bash scripts/26_directory_check.sh
+The ./sample_home directory exists
+readme.txt
+$ echo $?
+0
